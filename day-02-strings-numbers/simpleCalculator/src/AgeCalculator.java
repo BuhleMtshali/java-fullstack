@@ -35,12 +35,23 @@ public class AgeCalculator {
                 return;
             }
 
-            //CALCULATING THE AGE
-            
+            LocalDate currenDate = LocalDate.now();
 
+            //CALCULATING THE AGE
+            if(birthDate.isAfter(currenDate)){
+                System.out.println("⚠️ Are you from the future? 🛸 Time travel isn't legal yet!");
+            } else {
+                Period age = Period.between(birthDate, currenDate);
+                System.out.println("Hi " + name + " 🧑🏼‍🎤!");
+                System.out.println("You are: " +
+                        age.getYears() + " years, " +
+                        age.getMonths() + " months, and " +
+                        age.getDays() + " days old 🎉✨");
+            }
 
 
             System.out.print("Do you want to calculate Again?: ");
+            input.nextLine();
             choice = input.nextLine();
             
         }
