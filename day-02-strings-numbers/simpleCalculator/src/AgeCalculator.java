@@ -60,5 +60,6 @@ public class AgeCalculator {
         
         System.out.println("Thank you trying my Mini Age Calculator!!!");
         input.close();
+        
     }
 }
