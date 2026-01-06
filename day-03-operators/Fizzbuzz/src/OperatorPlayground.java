@@ -5,6 +5,7 @@ public class OperatorPlayground {
         Scanner input = new Scanner(System.in);
         String runAgain = "yes";
         int option;
+        Double output;
         
 
         //STARTING THE WHILE LOOP
@@ -27,16 +28,20 @@ public class OperatorPlayground {
                     char operator = input.next().charAt(0);
                     System.out.print("Enter your second number: ");
                     Double secondNumber = input.nextDouble();
-                    Double output;
+                    
                     if(operator == '+'){
                         output = firstNumber + secondNumber;
+                        System.out.println("Output: " + output);
                     } else if(operator == '-'){
                         output = firstNumber - secondNumber;
+                         System.out.println("Output: " + output);
                     } else if(operator == '*'){
                         output = firstNumber * secondNumber;
+                         System.out.println("Output: " + output);
                     } else if(operator == '/'){
                         if(secondNumber != 0){
                             output = firstNumber / secondNumber;
+                             System.out.println("Output: " + output);
                         } else {
                             System.out.print("🚫 Cannot devide by 0");
                         }
@@ -50,6 +55,7 @@ public class OperatorPlayground {
                     System.out.println("2. Comparison Check👾");
                     System.out.print("Enter the first number: ");
                     Double numberOne = input.nextDouble();
+                    System.out.print("Enter the second number: ");
                     Double numberTwo = input.nextDouble();
                     if(numberOne > numberTwo){
                         System.out.println(numberOne + " Is greater than " + numberTwo);
@@ -63,6 +69,7 @@ public class OperatorPlayground {
                 
                 case 3:
                     System.out.println("3. Logical Decision Test🧩");
+                    input.nextLine();
                     System.out.println("Enter your Name🙋🏻‍♀️: ");
                     String name = input.nextLine();
                     System.out.println("Enter your Age👾: ");
@@ -78,6 +85,7 @@ public class OperatorPlayground {
                 //END CASE 3
 
                 case 4:
+                    runAgain = "no";
                     System.out.println("==== Thank you for Trying the Program🧩 ====");
                     break; 
 
