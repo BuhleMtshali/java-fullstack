@@ -6,27 +6,26 @@ public class FizzBuzzLoop {
 
        String runAgain = "yes";
 
-       System.out.println("====🔐 FizzBuzz Mini Game🧩 =====");
+       System.out.println("==== 🔐 FizzBuzz Mini Game 🧩 =====");
     
        //START OF THE LOOP
        while (runAgain.equalsIgnoreCase("yes")) {
-        System.out.print("loop running");
 
-        System.out.print("Enter your Max Iterator(1-30): ");
+        System.out.print("🎲 Enter your Max Iterator(1-30): ");
         int maxIterator = input.nextInt();
 
         if(maxIterator > 30){
-            System.out.println("Too High for now friend!!!");
+            System.out.println("🦺 Too High for now friend🚫!!!");
         } else {
             for(int i = 0; i <= maxIterator; i++){
             if(i % 3 == 0 && i % 5 == 0){
-                System.out.println("FizzzBuzzz!!");
+                System.out.println("🎊FizzzBuzzz🎮!!");
             } else if(i % 3 == 0){
-                System.out.println("Fizzzz!!");
+                System.out.println("🐝 Fizzzz!!");
             } else if(i % 5 == 0){
-                System.out.println("Buzz!!!");
+                System.out.println("🎰Buzz!!!");
             } else{
-                System.out.println(i);
+                System.out.println("⛳️Ooops " + i + " out of the bullpark on this one!! ");
             }
             }
 
