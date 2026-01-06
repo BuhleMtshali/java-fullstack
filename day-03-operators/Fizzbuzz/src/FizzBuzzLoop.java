@@ -15,7 +15,10 @@ public class FizzBuzzLoop {
         System.out.print("Enter your Max Iterator(1-30): ");
         int maxIterator = input.nextInt();
 
-        for(int i = 0; i <= maxIterator; i++){
+        if(maxIterator > 30){
+            System.out.println("Too High for now friend!!!");
+        } else {
+            for(int i = 0; i <= maxIterator; i++){
             if(i % 3 == 0 && i % 5 == 0){
                 System.out.println("FizzzBuzzz!!");
             } else if(i % 3 == 0){
@@ -25,9 +28,9 @@ public class FizzBuzzLoop {
             } else{
                 System.out.println(i);
             }
+            }
+
         }
-
-
 
         //ASKING TO SEE IF THE LOOP RERUNS OR NOT
         System.out.print("Do you want to rerun the loop?(yes/no): ");
