@@ -1,18 +1,43 @@
-## Getting Started
+## 🚀 Day 04: Conditional Logic & Grade Evaluation 🎓
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Welcome to Day 4 of my 🔥 Full-Stack Java Developer Journey.
 
-## Folder Structure
+Today was all about conditional logic, decision-making, and turning raw numbers into meaningful results.
 
-The workspace contains two folders by default, where:
+This day’s mini project focuses on if / else chains, percentage calculations, and user-driven program flow — the kind of logic used in real academic systems and business apps.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🧩 Mini Project: Grade Checker 🐝
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 📌 Overview
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- The Grade Checker is a console-based Java program that:
 
-## Dependency Management
+    - Accepts a student’s marks
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    - Calculates their percentage
+
+    - Assigns a letter grade (A–F)
+
+    - Displays a clean summary
+
+    - Allows the user to rerun the program
+
+- Simple idea. Strong logic. Solid fundamentals.
+
+## 🧠 Concepts Practiced
+
+- if / else if / else decision structures
+
+- Arithmetic operators (/, *)
+
+Percentage calculations
+
+Character variables (char)
+
+while loops for rerun control
+
+Scanner input handling
+
+Clearing the Scanner buffer correctly
+
+Formatting meaningful console output
