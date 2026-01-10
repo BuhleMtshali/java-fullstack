@@ -9,7 +9,10 @@ public class GradeChecker {
         while (playAgain.equalsIgnoreCase("yes")) {
             System.out.print("Please Enter the Name of your Module 📖: ");
             String moduleName = input.nextLine();
-
+            System.out.print("🎲 Whaat was the Overall Mark of the test: ");
+            Double overallMark = input.nextDouble();
+            System.out.print("What was your Mark ⛳️: ");
+            Double studentMark = input.nextDouble();
 
             //CLOSING THE LOOP
             System.out.println("🎰 Do you want to Calculate Again(yes/no): ");
