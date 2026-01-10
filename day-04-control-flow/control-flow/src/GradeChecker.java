@@ -36,6 +36,7 @@ public class GradeChecker {
             System.out.println("🐝 Overall Module Mark: " + overallMark);
             System.out.println("🙋🏻‍♀️ Student Mark: " + studentMark);
             System.out.println("👯‍♀️ Student percentage: " + studentPercentage + "%");
+            System.out.println("Student Letter Grade: " + symbol);
 
             //CLOSING THE LOOP
             System.out.print("🎰 Do you want to Calculate Again(yes/no): ");
