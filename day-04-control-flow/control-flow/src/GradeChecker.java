@@ -14,6 +14,9 @@ public class GradeChecker {
             System.out.print("What was your Mark ⛳️: ");
             Double studentMark = input.nextDouble();
 
+            //FINDING THE STUDENT MARK
+            Double studentPercentage = (studentMark / overallMark) * 100;
+
             //CLOSING THE LOOP
             System.out.println("🎰 Do you want to Calculate Again(yes/no): ");
             playAgain = input.nextLine();
