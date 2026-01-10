@@ -16,10 +16,29 @@ public class GradeChecker {
 
             //FINDING THE STUDENT MARK
             Double studentPercentage = (studentMark / overallMark) * 100;
-            System.out.println("Your Overall Mark: " + studentPercentage);
+            char symbol;
+
+            //IF STATEMENT FOR SYMBLE
+            if(studentPercentage >= 90){
+                symbol = 'A';
+            } else if(studentPercentage >= 80){
+                symbol = 'B';
+            } else if(studentPercentage >= 70){
+                symbol = 'C';
+            } else if(studentPercentage >= 50){
+                symbol = 'D';
+            } else if(studentPercentage <= 49){
+                symbol = 'F';
+            }
+
+            System.out.println("==== 👾 Summary 🎲 ====");
+            System.out.println("🎮 Module Name: " + moduleName);
+            System.out.println("🐝 Overall Module Mark: " + overallMark);
+            System.out.println("🙋🏻‍♀️ Student Mark: " + studentMark);
+            System.out.println("👯‍♀️ Student percentage: " + studentPercentage + "%");
 
             //CLOSING THE LOOP
-            System.out.println("🎰 Do you want to Calculate Again(yes/no): ");
+            System.out.print("🎰 Do you want to Calculate Again(yes/no): ");
             input.nextLine();
             playAgain = input.nextLine();
         }
