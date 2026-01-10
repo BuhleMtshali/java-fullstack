@@ -7,7 +7,8 @@ public class GradeChecker {
         String playAgain = "yes";
         //STARTING LOOP
         while (playAgain.equalsIgnoreCase("yes")) {
-            System.out.print("Loop is running....");
+            System.out.print("Please Enter the Name of your Module 📖: ");
+            String moduleName = input.nextLine();
 
 
             //CLOSING THE LOOP
