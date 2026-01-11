@@ -30,14 +30,47 @@ This day’s mini project focuses on if / else chains, percentage calculations, 
 
 - Arithmetic operators (/, *)
 
-Percentage calculations
+- Percentage calculations
 
-Character variables (char)
+- Character variables (char)
 
-while loops for rerun control
+- while loops for rerun control
 
-Scanner input handling
+- Scanner input handling
 
-Clearing the Scanner buffer correctly
+- Clearing the Scanner buffer correctly
 
-Formatting meaningful console output
+- Formatting meaningful console output
+
+## ⚙️ How the Program Works
+
+### 🔹 User Inputs
+
+- 📖 Module name
+
+- 🐝 Overall test mark
+
+- ⛳️ Student’s obtained mark
+
+### 🔹 Program Logic
+
+1. Calculates the student’s percentage:
+
+```
+(studentMark / overallMark) * 100
+
+```
+
+2. Assigns a letter grade based on percentage:
+
+| Percentage | Grade |
+| ---------- | ----- |
+| 90–100     | A     |
+| 80–89      | B     |
+| 70–79      | C     |
+| 50–69      | D     |
+| Below 50   | F     |
+
+3. Displays a full summary
+
+4. Asks the user if they want to calculate again
