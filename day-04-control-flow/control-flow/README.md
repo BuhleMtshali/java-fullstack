@@ -74,3 +74,58 @@ This day’s mini project focuses on if / else chains, percentage calculations, 
 3. Displays a full summary
 
 4. Asks the user if they want to calculate again
+
+## 🖥️ Sample Output
+
+```
+==== 👾 Summary 🎲 ====
+🎮 Module Name: Mathematics
+🐝 Overall Module Mark: 100
+🙋🏻‍♀️ Student Mark: 78
+👯‍♀️ Student percentage: 78.0%
+🥦 Student Letter Grade: C
+
+```
+
+## 📂 Folder Structure
+
+```
+/day-04-grade-checker/
+├── README.md
+└── GradeChecker.java
+
+```
+
+## 🧠 Key Lessons Learned
+
+- How to chain conditions without overlapping logic
+
+- Why condition order matters (highest → lowest)
+
+- Using char for symbolic results
+
+- Converting numeric data into readable outcomes
+
+- Building user-friendly console programs
+
+- Handling repeated execution cleanly with loops
+
+## 🔥 Day 4 Takeaway
+
+“Logic is just storytelling — but for computers.”
+
+- Today strengthened my ability to:
+
+- Translate rules into conditions
+
+- Think in ranges instead of single values
+
+- Build programs that respond intelligently to user input
+
+- This is the foundation for validation, scoring systems, and business rules in real applications.
+
+## 📌 Next Up:
+
+### Day 05 → Loops Deep Dive & Pattern Logic 🔁
+
+More repetition, tighter logic, and programs that think in cycles.
