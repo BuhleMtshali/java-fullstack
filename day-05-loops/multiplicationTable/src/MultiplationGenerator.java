@@ -10,6 +10,10 @@ public class MultiplationGenerator {
             System.out.print("🎮 Choose your multiplier(1-30) 🛍️: ");
             int multiplier = input.nextInt();
 
+            //STARTING THE FOR LOOP
+            for(int i = 1; i <= multiplier; i++){
+                System.out.println(i + " * " + multiplier + " = " + (i * multiplier));
+            }
 
             //CLOSING THE LOOP
             System.out.print("🎰 Do you want to regenarate another table: ");
@@ -17,6 +21,7 @@ public class MultiplationGenerator {
         }
 
         System.out.println("======== ⛳️ THANK YOU FOR TRYING MY MULTIPLIPLICATION GENERATOR 🐝 =========");
+        input.nextLine();
         input.close();
     }
 }
