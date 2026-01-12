@@ -17,11 +17,11 @@ public class MultiplationGenerator {
 
             //CLOSING THE LOOP
             System.out.print("🎰 Do you want to regenarate another table: ");
+            input.nextLine();
             generateAgain = input.nextLine();
         }
 
         System.out.println("======== ⛳️ THANK YOU FOR TRYING MY MULTIPLIPLICATION GENERATOR 🐝 =========");
-        input.nextLine();
         input.close();
     }
 }
