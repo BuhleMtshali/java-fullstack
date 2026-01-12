@@ -3,8 +3,20 @@ import java.util.Scanner;
 public class MultiplationGenerator {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+        System.out.println("========= 🔢 Mini Multiplication Generator 🎲 =========");
+        String generateAgain = "yes";
+
+        while (generateAgain.equalsIgnoreCase("yes")) {
+            System.out.print("🎮 Choose your multiplier(1-30) 🛍️: ");
+            int multiplier = input.nextInt();
 
 
+            //CLOSING THE LOOP
+            System.out.print("🎰 Do you want to regenarate another table: ");
+            generateAgain = input.nextLine();
+        }
+
+        System.out.println("======== ⛳️ THANK YOU FOR TRYING MY MULTIPLIPLICATION GENERATOR 🐝 =========");
         input.close();
     }
 }
