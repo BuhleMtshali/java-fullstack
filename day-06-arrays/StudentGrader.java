@@ -1,8 +1,9 @@
-
+//IMPORTING THE JAVA UTIL ARRAYLIST
+import java.util.ArrayList;
 
 public class StudentGrader {
     public static void main(String[] args) {
-    
-        System.out.print("hello");
+        ArrayList<Double> grades = new ArrayList<>();
+        
     }
 }
