@@ -6,5 +6,13 @@ public class TicTacToe {
             {' ', ' ', ' '},
             {' ', ' ', ' '}
         };
+
+        //indexes start at 0
+        //board[0][0] // top-left
+        //board[1][1] // center
+        // board[2][2] // bottom-right
+
+        
+
     }
 }
