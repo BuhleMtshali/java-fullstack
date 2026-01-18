@@ -12,7 +12,10 @@ public class TicTacToe {
         //board[1][1] // center
         // board[2][2] // bottom-right
 
-        
+        //PRINTING the first ROW manually
+        System.out.println(
+            board[0][0] + " | " + board[0][1] + " | " + board[0][2]
+        );
 
     }
 }
