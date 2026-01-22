@@ -1,3 +1,10 @@
+class CalculatingMethods{
+    
+    
+}
+
+
+
 public class CalculatorMethods {
     public static void main(String[] args){
         System.out.print("hello");
