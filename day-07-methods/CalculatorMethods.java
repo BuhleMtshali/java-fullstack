@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Calculator{
     public static double add(double num1, double num2){
         double sum = num1 + num2;
@@ -27,6 +29,6 @@ class Calculator{
 
 public class CalculatorMethods {
     public static void main(String[] args){
-        System.out.print("hello");
+       
     }
 }
