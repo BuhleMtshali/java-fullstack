@@ -1,34 +1,82 @@
 import java.util.Scanner;
-
 class Calculator{
+
     public static double add(double num1, double num2){
-        double sum = num1 + num2;
-        return sum;
-    }
+        return num1 + num2;
+    };
 
-    public static double minus(double num1, double num2){
-        double sum = num1 - num2;
-        return sum;
-    }
+    public static double subtract(double num1, double num2){
+        return num1 - num2;
+    };
 
-    public static double multiplay(double num1, double num2){
-        double sum = num1 * num2;
-        return sum;
-    }
+    public static double multiply(double num1, double num2){
+        return num1 * num2;
+    };
 
     public static double divide(double num1, double num2){
-        if(num2 == 0){
-            System.out.println("‼️ We cannot divide by 0");
-            return 0;
+        if (num1 == 0){
+            System.out.println("🚫ERROR: Division by zero is not allowed");
+            return Double.NaN; //this is an error indicator for not a number
+        } else {
+            return num1 / num2;
+
         }
-        return num1 / num2;
     }
 }
 
-
-
 public class CalculatorMethods {
     public static void main(String[] args){
-       
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("==== Welcome to My Modulated Java Calculator👾 ======");
+
+        while (true) {
+            System.out.print("Enter your first number: ");
+            double numberOne = input.nextDouble();
+
+            System.out.print("Choose an operator (+, -, *, /)");
+            char operator = input.next().charAt(0);
+
+            System.out.print("Enter your second number: ");
+            double numberTwo = input.nextDouble();
+
+            double result;
+
+            switch (operator) {
+                case '+':
+                    result = Calculator.add(numberOne, numberTwo);
+                    break;
+                case '-':
+                    result = Calculator.subtract(numberOne, numberTwo);
+                    break;
+                case '*':
+                    result = Calculator.multiply(numberOne, numberTwo);
+                    break;
+                case '/':
+                    result = Calculator.divide(numberOne, numberTwo);
+                    break;
+                default:
+                    System.out.println("Invalid operator");
+                    return;
+                    
+            }
+
+                System.out.println("Result: " + result);
+
+                input.nextLine();
+                
+                System.out.print("\nWanna make another calculation? (yes/no): ");
+                String answer = input.nextLine().trim().toLowerCase();
+
+                if(answer.equals("no")){
+                    System.out.println("==== Thank you trying my modulated Calculator👾 =====");
+                    break;
+                } else {
+                    System.out.println("\nOkay, lets go for another round!!!");
+                }
+        }
+
+        
+        input.close();
     }
 }
