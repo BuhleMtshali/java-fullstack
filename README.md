@@ -103,3 +103,85 @@
 │
 └── /resources/                     📚 Notes, cheatsheets, references
 
+
+## 📦 What Each Project Contains
+
+### Every /day-XX-project/ folder includes:
+
+📘 Concept Breakdown
+
+⚙️ Project Description
+
+🎯 Why This Matters (real-world relevance)
+
+💻 Clean Java code
+
+🧠 Thought process & logic
+
+
+## 🔧 Tools & Tech Stack 🛠️💻
+
+| 💡 Category   | 🚀 Stack                                  |
+| ------------- | ----------------------------------------- |
+| 🧠 Language   | ☕ Java 21, 🧙‍♂️ JavaScript               |
+| 🛠️ Backend   | ⚙️ Spring Boot, 🐘 PostgreSQL             |
+| 🎨 Frontend   | ⚛️ React, HTML, CSS                       |
+| 🧪 Testing    | 🧪 JUnit, Mockito                         |
+| 🗄️ Database  | JDBC, JPA/Hibernate                       |
+| ⚙️ DevOps     | 🐙 Git, 🛸 GitHub Actions, 🐳 Docker      |
+| 🧰 IDEs       | 🧠 IntelliJ, VS Code                      |
+| 🌐 Deployment | 🚢 Render, 🌍 Netlify, ☁️ Cloud platforms |
+
+
+## 🚧 Goals
+
+- By the end of this journey, I will:
+
+    - ✅ Build 100+ intentional, real-world Java projects
+
+    - 🧱 Develop production-ready backend systems
+
+    - 🔐 Implement secure authentication (JWT)
+
+    - 🌐 Ship full-stack applications
+
+    - 🐳 Deploy apps using Docker + CI/CD
+
+    - 📈 Think like a backend engineer, not just a coder
+
+    - 💼 Be fully ready for junior backend / software engineer roles
+
+
+## 💼 Featured Project (Main Character Energy)
+
+- 💸 Smart Finance Tracker API
+
+- A full backend system with:
+
+    - JWT authentication 🔐
+
+    - Expense tracking + categorization
+
+    - Spending insights & alerts 📊
+
+    - File uploads (receipts)
+
+    - Exportable reports
+
+    - Dockerized deployment
+
+- 👉 This is not a demo. This is a portfolio anchor project.
+
+## 📬 Connect With Me
+
+🐙 GitHub: BuhleMtshali
+
+💼 LinkedIn: Zanobuhle Mtshali
+
+🌐 Portfolio: coming soon 👀
+
+## 🔥 Motto
+
+"Each folder is a system. Each commit is a level-up.
+
+From fundamentals to production — one day at a time."
