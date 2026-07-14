@@ -9,7 +9,7 @@ public class AgeCalculator {
 
 
         while (choice.equalsIgnoreCase("yes")) {
-            System.out.println("===== Welcome to my Mini Age Calculator👯‍♀️ =====");
+            System.out.println("===== Welcome to my Mini Age Calculator👯‍♀️ ========");
 
 
             //GETTING THE USERSS Name
